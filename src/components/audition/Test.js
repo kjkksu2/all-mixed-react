@@ -1,9 +1,9 @@
 import React from "react";
 
 import Button from "../ui/Button";
-import { test1 } from "./Dummy/test1";
-import { test2 } from "./Dummy/test2";
-import { test3 } from "./Dummy/test3";
+import { test1 } from "./dummy/test1";
+import { test2 } from "./dummy/test2";
+import { test3 } from "./dummy/test3";
 import classes from "./Test.module.css";
 
 const Test = (props) => {

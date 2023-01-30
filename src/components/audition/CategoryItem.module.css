@@ -1,0 +1,19 @@
+.li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.li span {
+  color: rgba(59, 60, 68, 0.8);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 15%;
+  white-space: nowrap;
+}
+
+.li p {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

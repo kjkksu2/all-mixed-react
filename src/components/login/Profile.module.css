@@ -1,0 +1,26 @@
+.container {
+  width: 55%;
+  margin: 7% auto;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.info > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.info label {
+  width: 13%;
+  font-size: 1.25rem;
+}
+
+.info p {
+  width: 13%;
+  font-size: 1.1rem;
+}

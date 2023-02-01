@@ -1,7 +1,14 @@
 import React from "react";
 
+import Contents from "../components/login/Contents";
+import { AuthContextProvider } from "../components/login/store/AuthContext";
+
 const Login = () => {
-  return <h1>login</h1>;
+  return (
+    <AuthContextProvider>
+      <Contents />
+    </AuthContextProvider>
+  );
 };
 
 export default Login;

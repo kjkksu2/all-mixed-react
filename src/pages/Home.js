@@ -1,18 +1,23 @@
 import React from "react";
+
 import Contents from "../components/home/Contents";
 
 const lists = [
   {
     title: "오디션",
-    description: "정규표현식을 이용해서 오디션 정보 추출해보기",
-  },
-  {
-    title: "영화리스트",
-    description: "react-router-dom 사용해보기",
+    description: "정규표현식, custom hook 사용해보기",
   },
   {
     title: "로그인",
-    description: "redux 대신 useReducer, context api 사용해보기",
+    description: "context api, forwardRef, createPortal 사용해보기",
+  },
+  {
+    title: "영화리스트",
+    description: "react-router-dom, redux, redux/toolkit 사용해보기",
+  },
+  {
+    title: "미정",
+    description: "api 인증 토큰, 지연 로딩 사용해보기",
   },
 ];
 

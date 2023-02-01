@@ -15,10 +15,10 @@ const Navigation = () => {
             <Link to="/audition">오디션</Link>
           </li>
           <li>
-            <Link to="/movies">영화리스트</Link>
+            <Link to="/login">로그인</Link>
           </li>
           <li>
-            <Link to="/login">로그인</Link>
+            <Link to="/movies">영화리스트</Link>
           </li>
         </ul>
       </nav>
